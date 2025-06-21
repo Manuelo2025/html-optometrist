@@ -1,0 +1,101 @@
+/* Import Google Fonts */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0ee2e9;
+  color: #333;
+}
+
+.container {
+  width: 40%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: #bce973;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.site-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.branding h1 {
+  font-size: 1.8rem;
+  color: #d4af37;
+  margin: 0;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-nav a {
+  color: #08e02c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav.main-nav a:hover {
+  color: #f0a500;
+}
+
+.intro {
+  padding: 2rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #f3081c;
+  color: #a80707;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #0af130;
+}
+
+.site-footer {
+  background-color: #222;
+  color: white;
+  padding: 0.5rem 0;
+  margin-top: 2rem;
+}
+
+.site-footer .social-links a {
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.site-footer .social-links a:hover {
+  color: #f0a500;
+}
